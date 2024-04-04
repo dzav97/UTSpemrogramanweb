@@ -1,0 +1,109 @@
+/*kode profil*/
+.navbar-nav .nav-link {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 3;
+}
+
+.bg-gradient {
+    background: linear-gradient(45deg, #007bff, #6c757d);
+    color: white;
+}
+.profile-container {
+    background-image: url(../gambar/imggg.jpg);
+    background-size: cover;
+    height: 2000px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.profile-container .left-section {
+    text-align: center;
+    margin: auto;
+    padding: 100px;
+    color: aliceblue;
+}
+
+.profile-container .right-section {
+    margin: auto;
+    padding: 100px;
+    color: aliceblue;
+}
+.profile-container h3 {
+    text-align: center;
+    color: antiquewhite;
+    padding: 30px;
+}
+
+/* kode jadwal*/
+.navbar-nav .nav-link {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 3;
+}
+
+.bg-gradient {
+    background: linear-gradient(45deg, #007bff, #6c757d);
+    color: white;
+}
+.table-responsive {
+    background-image: url(../gambar/imggg.jpg);
+    background-size: cover;
+    height: 2000px;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.table-responsive h2 {
+    color: antiquewhite;
+    padding: 30px;
+}
+.table-responsive .table {
+    color: rgba(172, 255, 47, 0.832);
+}
+
+
+/*kode pendaftaran*/
+.navbar-nav .nav-link {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 3;
+}
+
+.bg-gradient {
+    background: linear-gradient(45deg, #007bff, #6c757d);
+    color: white;
+}
+.containerp {
+    background-image: url(../gambar/imggg.jpg);
+    background-size: cover;
+    height: 2000px;
+    color: rgba(171, 127, 69, 0.356);
+    font-family: 'Times New Roman', Times, serif;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.user-input:nth-child(2n){
+    justify-content: end;
+}
+.user-input{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 30px;
+}
+.user-input label{
+    width: 95%;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+.user-input input{
+    height: 40px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 0 10px;
+}

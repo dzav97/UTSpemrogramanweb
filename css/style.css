@@ -1,0 +1,82 @@
+.navbar-nav .nav-link {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 3;
+}
+
+.bg-gradient {
+    background: linear-gradient(45deg, #007bff, #6c757d);
+    color: white;
+}
+
+/*kode index*/
+.jumbotron {
+    background-image: url(../gambar/imggg.jpg);
+    background-size: cover;
+    height: 2000px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.jumbotron .display-4 {
+    color: aliceblue;
+}
+
+.jumbotron p {
+    color: aliceblue;
+}
+
+.jumbotron .btn {
+    border: none;
+    border-radius: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-top: 50px;
+}
+
+/*kode tentang saya*/
+.navbar-nav .nav-link {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 3;
+}
+.bg-gradient {
+    background: linear-gradient(45deg, #007bff, #6c757d);
+    color: white;
+}
+.container {
+    background-image: url(../gambar/imggg.jpg);
+    background-size: cover;
+    height: 2000px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+.container h2 {
+    color: antiquewhite;
+    padding: 30px;
+}
+
+/*kode hobi*/
+.navbar-nav .nav-link {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 3;
+}
+
+.bg-gradient {
+    background: linear-gradient(45deg, #007bff, #6c757d);
+    color: white;
+}
+.containert {
+    background-image: url(../gambar/imggg.jpg);
+    background-size: cover;
+    height: 2000px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.containert h2{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+    color: antiquewhite;
+}
+.containert .bio-segment {
+    color: aliceblue;
+}

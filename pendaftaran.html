@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran</title>
+    <link rel="stylesheet" type="text/css" href="css/stylee.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<!-- Navbar untuk navigasi antar halaman -->
+<nav class="navbar navbar-expand-lg navbar-light bg-info">
+    <a class="navbar-brand" href="#">Website Diaz</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Profil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tentang Saya</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Jadwal Perkuliahan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hobi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pendaftaran</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Konten halaman Pendaftaran -->
+<div class="containerp" id="registrasi">
+    <div class="class">
+        <div class="col-md-6 mx-auto">
+            <div class="card bg-light">
+                <div class="card-body">
+                    <h2 class="text-center mb-4 font-weight-bold">Pendaftaran</h2>
+                    <form action="profil.html" method="post">
+                        <div class="main">
+                            <div class="user-input">
+                                <label for="fullName">Nama</label>
+                                <input type="text" id="fullName" name="fullName" placeholder="Enter Full Name" required/>
+                            </div>
+                            <div class="user-input">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Enter Email" required/>
+                            </div>
+                            <div class="user-input">
+                                <label for="password">Password</label>
+                                <input type="password" id="password" name="password" placeholder="Enter Password" required/>
+                            </div>
+                            <div class="user-input">
+                                <label for="confirmPassword">Confirm Password</label>
+                                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" required/>
+                            </div>
+                        <div class="form-submit-btn">
+                            <button type="submit" class="btn btn-primary btn-lg font-weight-bold">Daftar</a>
+                        </div>
+                        <script src="js/script.js"></script>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
